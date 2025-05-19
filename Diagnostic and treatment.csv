@@ -1,0 +1,19 @@
+def get_diagnosis(symptoms):
+    disease_database = {
+        "Flu": {
+            "symptoms": ["fever", "cough", "sore throat", "body ache"],
+            "treatment": "Rest, hydration, and antiviral medication if severe."
+        },
+        "Common Cold": {
+            "symptoms": ["sneezing", "stuffy nose", "sore throat", "mild cough"],
+            "treatment": "Rest, fluids, and over-the-counter cold remedies."
+        },
+        "Malaria": {
+            "symptoms": ["fever", "chills", "sweating", "headache", "nausea"],
+            "treatment": "Antimalarial drugs prescribed by a physician."
+        },
+        "COVID-19": {
+            "symptoms": ["fever", "dry cough", "fatigue", "loss of taste", "breathlessness"],
+            "treatment": "Isolation, rest, fever reducers, and medical supervision if symptoms worsen."
+        }
+    }
